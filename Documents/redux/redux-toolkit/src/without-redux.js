@@ -11,7 +11,7 @@ function WithoutRedux() {
   return (
     <div>
       <div id="red">
-        <div class="container" id="component_red">
+        <div className="container" id="component_red">
           <h1>red</h1>
           <input
             type="button"
@@ -21,7 +21,7 @@ function WithoutRedux() {
         </div>
       </div>
       <div id="green">
-        <div class="container" id="component_green">
+        <div className="container" id="component_green">
           <h1>green</h1>
           <input
             type="button"
@@ -31,7 +31,7 @@ function WithoutRedux() {
         </div>
       </div>
       <div id="blue">
-        <div class="container" id="component_blue">
+        <div className="container" id="component_blue">
           <h1>blue</h1>
           <input
             type="button"
