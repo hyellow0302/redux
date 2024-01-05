@@ -5,13 +5,10 @@ import "./App.css";
 
 function WithRedux() {
   const stateColor = useSelector((state) => state.color.value);
-
-  // useDispatch 훅을 사용하여 dispatch 함수를 가져옵니다.
   const dispatch = useDispatch();
 
   const changeColor = (newColor) => {
-    // useDispatch를 사용하여 액션(change)을 디스패치합니다.
-    dispatch(change({ color: `${newColor}` }));
+    dispatch(change(newColor));
   };
   console.log(stateColor);
 
